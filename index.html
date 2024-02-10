@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS 432 - Assignment 2</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1 class="page_title">Hello there, welcome to my webpage!</h1>
+    </header>
+
+    <section class="about_me">
+        <div class="personal_card">
+            <img src="pfp.png" class="profile_pic" alt="Nebiyou Ersabo's profile picture">
+            <p class="intro_par">
+                My name is Nebiyou Ersabo. I am a senior computer science major at <a  class = "hyperlinks" href = "https://www.tamu.edu/" target = "_blank"><strong>Texas A&M University</strong></a>. 
+                I am currently taking this course about accessible computing to gain more understanding about the various barriers different user groups face and how I can
+                use that knowledge to address those barriers and create a more accessible and inclusive digital media. 
+            </p>
+        </div>
+    </section>
+    <section class="accessible_tech">
+        <div class = "accessible_tech_content">
+            <h2>Some accessible computing technologies I find inspiring:</h2>
+            <ul>
+                <li>Text-to-Speech <a class = "hyperlinks" href = "Text-to-Speech - Nebiyou Ersabo.pdf" target = "_blank">(check my infographic on Text-to-speech technology)</a></li>
+                <li>Closed Captioning</li>
+                <li>Screen Magnifiers</li>
+                <li>Voice Recognition</li>
+            </ul>
+        </div>
+        <div class = "accesible_tech_img">
+            <img class = "accessible_img" src="./Screen Maginifiers.png" alt="An image screen maginifer technology">
+        </div>
+    </section>
+    <section class = "interests">
+        <div class="personal_interests">
+            <div class = "interests_list_wrapper">
+                <div class="interests_lists">
+                    <h2>Some of my personal interests:</h2>
+                    <ul>
+                        <li>Playing and watching soccer (huge fan of Chelsea FC)</li>
+                        <li>Hiking</li>
+                        <li>Kayaking</li>
+                        <li>Watching Anime & TV shows</li>
+                        <li>Playing FIFA</li>
+                    </ul>
+                </div>
+                <div class="interests_images">
+                    <img class= "interests_img" src="./chelsea_fc.webp" alt="An image of Chelsea FC after they won UEFA Champions League 2021">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "form">
+        <h2>Contact me:</h2>
+        <div class="contact_me_form">
+            <form action="mailto:nebiyou@tamu.edu" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="mail" required>
+        
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+        
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </section>
+
+
+</body>
+</html>
